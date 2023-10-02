@@ -181,3 +181,7 @@ input[type=file]::file-selector-button {
   cursor: pointer;
   transition: background .2s ease-in-out;
 }
+
+p {
+      color: red;
+    }
