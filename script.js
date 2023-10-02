@@ -15,7 +15,7 @@ form.addEventListener('submit', async (event) => {
   if (image instanceof Blob) {
     formData.append('image', image, 'uploaded_image.jpeg');
     try {
-      const response = await fetch('http://192.168.0.106:5000/', {
+      const response = await fetch('https://pre-traning-model-use.onrender.com/', {
         method: 'POST',
         body: formData,
       });
